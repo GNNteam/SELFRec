@@ -18,7 +18,7 @@ if __name__ == '__main__':
     print('   '.join(graph_models))
 
     print('=' * 80)
-    model = 'KECL'
+    model = 'SimGCL'
     import time
 
     s = time.time()
