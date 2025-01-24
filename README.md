@@ -12,7 +12,10 @@ torch>=1.7.0
 ```
 
 How to run the codes:
-1、python main.py
+1.
+```
+python main.py
+```
 2、Select the model you want to run, like KECL
 3、You can change the configuration of the parameters in the config file. Such as dataset, layers.
 
