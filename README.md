@@ -1,4 +1,3 @@
-# SELFRec
 This is the PyTorch implementation for KEL proposed in the paper Knowledge-enhanced Graph Contrastive Learning for Recommendation
 
 **SELFRec** is a Python framework for self-supervised recommendation (SSR) which integrates commonly used datasets and metrics, and implements many state-of-the-art SSR models. SELFRec has a lightweight architecture and provides user-friendly interfaces. It can facilitate model implementation and evaluation.
