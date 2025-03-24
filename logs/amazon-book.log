@@ -1,0 +1,22 @@
+2024-12-27 11:09:22,586 - KECL - INFO - ### model configuration ###
+2024-12-27 11:09:22,586 - KECL - INFO - # training.set=./dataset/MIND/train.txt
+2024-12-27 11:09:22,586 - KECL - INFO - # test.set=./dataset/MIND/test.txt
+2024-12-27 11:09:22,586 - KECL - INFO - training.set=./dataset/amazon-book/train.txt
+2024-12-27 11:09:22,586 - KECL - INFO - test.set=./dataset/amazon-book/test.txt
+2024-12-27 11:09:22,586 - KECL - INFO - model.name=KECL
+2024-12-27 11:09:22,586 - KECL - INFO - model.type=graph
+2024-12-27 11:09:22,586 - KECL - INFO - item.ranking=-topN 10,20
+2024-12-27 11:09:22,586 - KECL - INFO - embbedding.size=128
+2024-12-27 11:09:22,586 - KECL - INFO - num.max.epoch=100
+2024-12-27 11:09:22,586 - KECL - INFO - batch_size=2048
+2024-12-27 11:09:22,586 - KECL - INFO - learnRate=0.001
+2024-12-27 11:09:22,586 - KECL - INFO - reg.lambda=0.0001
+2024-12-27 11:09:22,586 - KECL - INFO - KECL=-n_layer 2 -l* 1 -lambda 0.2 -eps 0.2 -tau 0.15
+2024-12-27 11:09:22,586 - KECL - INFO - output.setup=-dir ./results/
+2024-12-27 11:09:22,586 - KECL - INFO - lr=0.001
+2024-12-27 11:09:22,586 - KECL - INFO - entity_num_per_item=8
+2024-12-27 11:09:22,586 - KECL - INFO - DATA_PATH=./dataset
+2024-12-27 11:09:22,586 - KECL - INFO - dataset=amazon-book
+2024-12-27 11:09:22,586 - KECL - INFO - device=0
+2024-12-27 12:29:17,907 - KECL - INFO - ###Evaluation Results###
+2024-12-27 14:37:28,907 - KECL - INFO - ['Top 20\n', 'Hit Ratio:0.13094100660066008\n', 'Precision:0.017922706860647958\n', 'Recall:0.16721771181627043\n', 'F1:0.032407040921904976\n', 'NDCG:0.09067098615538592\n']

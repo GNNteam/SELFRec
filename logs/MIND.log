@@ -1,0 +1,19 @@
+2024-12-27 11:10:27,711 - KECL - INFO - ### model configuration ###
+2024-12-27 11:10:27,712 - KECL - INFO - training.set=./dataset/MIND/train.txt
+2024-12-27 11:10:27,712 - KECL - INFO - test.set=./dataset/MIND/test.txt
+2024-12-27 11:10:27,712 - KECL - INFO - model.name=KECL
+2024-12-27 11:10:27,712 - KECL - INFO - model.type=graph
+2024-12-27 11:10:27,712 - KECL - INFO - item.ranking=-topN 10,20
+2024-12-27 11:10:27,712 - KECL - INFO - embbedding.size=128
+2024-12-27 11:10:27,712 - KECL - INFO - num.max.epoch=20
+2024-12-27 11:10:27,712 - KECL - INFO - batch_size=2048
+2024-12-27 11:10:27,712 - KECL - INFO - learnRate=0.001
+2024-12-27 11:10:27,712 - KECL - INFO - reg.lambda=0.0001
+2024-12-27 11:10:27,712 - KECL - INFO - KECL=-n_layer 2 -l* 1 -lambda 0.2 -eps 0.2 -tau 0.15
+2024-12-27 11:10:27,712 - KECL - INFO - output.setup=-dir ./results/
+2024-12-27 11:10:27,712 - KECL - INFO - lr=0.001
+2024-12-27 11:10:27,712 - KECL - INFO - entity_num_per_item=8
+2024-12-27 11:10:27,712 - KECL - INFO - DATA_PATH=./dataset
+2024-12-27 11:10:27,712 - KECL - INFO - dataset=MIND
+2024-12-27 11:10:27,712 - KECL - INFO - device=1
+2024-12-27 11:10:27,712 - KECL - INFO - ['Top 20\n', 'Hit Ratio:0.10831267220066705\n', 'Precision:0.011891153081510935\n', 'Recall:0.1113001353855984\n', 'F1:0.021486697060018146\n', 'NDCG:0.06874494512938462\n']

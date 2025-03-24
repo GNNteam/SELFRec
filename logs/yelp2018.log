@@ -1,0 +1,20 @@
+2024-12-27 02:13:54,760 - KECL - INFO - ### model configuration ###
+2024-12-27 02:13:54,760 - KECL - INFO - training.set=./dataset/yelp2018/train.txt
+2024-12-27 02:13:54,761 - KECL - INFO - test.set=./dataset/yelp2018/test.txt
+2024-12-27 02:13:54,761 - KECL - INFO - model.name=KECL
+2024-12-27 02:13:54,761 - KECL - INFO - model.type=graph
+2024-12-27 02:13:54,761 - KECL - INFO - item.ranking=-topN 20
+2024-12-27 02:13:54,761 - KECL - INFO - embbedding.size=128
+2024-12-27 02:13:54,761 - KECL - INFO - num.max.epoch=20
+2024-12-27 02:13:54,761 - KECL - INFO - batch_size=2048
+2024-12-27 02:13:54,761 - KECL - INFO - learnRate=0.001
+2024-12-27 02:13:54,761 - KECL - INFO - reg.lambda=0.0001
+2024-12-27 02:13:54,761 - KECL - INFO - KECL=-n_layer 2 -l* 1 -lambda 0.2 -eps 0.2 -tau 0.15
+2024-12-27 02:13:54,761 - KECL - INFO - output.setup=-dir ./results/
+2024-12-27 02:13:54,761 - KECL - INFO - lr=0.001
+2024-12-27 02:13:54,761 - KECL - INFO - entity_num_per_item=8
+2024-12-27 02:13:54,761 - KECL - INFO - DATA_PATH=./dataset
+2024-12-27 02:13:54,761 - KECL - INFO - dataset=yelp2018
+2024-12-27 02:13:54,761 - KECL - INFO - device=0
+2024-12-27 04:58:54,822 - KECL - INFO - ###Evaluation Results###
+2024-12-27 04:58:54,822 - KECL - INFO - ['Top 20\n', 'Hit Ratio:0.07672448792876354\n', 'Precision:0.02111281414695762\n', 'Recall:0.08589065969410948\n', 'F1:0.033949240321207187\n', 'NDCG:0.05617503681059759\n']
